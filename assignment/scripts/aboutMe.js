@@ -118,8 +118,22 @@ console.log(mostPets);
 
 //I was unsure what to do if the numbers are equal so I just assigned mostPets to one of the values.
 //I would love feedback on if you wanted something else!
+// A note:  I originally wrote the following but the undefined bothered me so I changed it.  If this is was wanted, though, here is the code:
 
-//If we don't care about what happens when they are equal it could be less redundant and be:
+/*
+let mostPets;
+
+if(pets > friendsPets){
+    mostPets = pets;
+} else if (pets < friendsPets) {
+    mostPets = friendsPets;
+} else {
+  let mostPets;
+}    
+
+*/
+
+//Another version: If we don't care about what happens when they are equal it could be less redundant and be:
 
 
 /*
