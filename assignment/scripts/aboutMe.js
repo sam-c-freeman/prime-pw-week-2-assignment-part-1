@@ -31,7 +31,7 @@ console.log(`My name is ${fullName} and I think ${luckyNumber} is a winner!`)
 
 // 7 - Create a variable named `adventurous` and set it to a boolean value (true or false)
 
-let adventurous = false;
+let adventurous = true;
 console.log('adventurous:', adventurous);
 
 
@@ -154,7 +154,10 @@ switch(luckyNumber){
 
 // 18 -- Rewrite question 13 with a `ternary` operator. You'll need to do research!
 
-adventurous = true ? console.log('Adventures are great!') : console.log('How about we stay home?');
+adventurous ? console.log('Adventures are great!') : console.log('How about we stay home?');
+
+/* I strugggled with this one! I had written adventurous = true ? but I guess that is redudant and also reassgined adventurous?  I couldn't get it to evaluate as false*/
+
 
 
 
