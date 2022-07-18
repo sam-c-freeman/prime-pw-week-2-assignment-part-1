@@ -116,6 +116,9 @@ if(pets > friendsPets){
 
 console.log(mostPets); 
 
+//I was unsure what to do if the numbers are equal so I just assigned mostPets to one of the values.
+//I would love feedback on if you wanted something else!
+
 //If we don't care about what happens when they are equal it could be less redundant and be:
 
 
