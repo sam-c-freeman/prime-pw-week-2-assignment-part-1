@@ -42,14 +42,32 @@ console.log('favorite food:', food);
 
 // 9 - Create a variable called `pets` and set it to the value of the number of pets you have
 
+let pets = 1;
+console.log('pets:', pets);
+
 // 10 - Create a variable called `friendsPets` and assign it the value of the number of pets your friend has
+
+let friendsPets = 5;
+console.log(`Ro's Pets:`, friendsPets);
 
 // 11 - Add two pets to your `pets` variable
 
+pets += 2;
+console.log(pets);
+
 // 12 - Create a constant variable called `allowedPets` and set it to a number value of your choice
+
+const allowedPets = 2;
 
 // 13 - Create a conditional: if adventurous is true, console log "Adventures are great!", 
 // if it's not true, console log "How about we stay home?"
+
+if(adventurous === true){
+    console.log('Adventures are great!');
+} 
+else {
+    console.log('How about we stay home?');
+}
 
 
 // 14 - Create a compound conditional: if luckyNumber is 2 and adventurous is true,
